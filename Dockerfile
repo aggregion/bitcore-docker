@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:4
 
 RUN \
   apt-get update --force-yes -y && \
@@ -6,6 +6,7 @@ RUN \
 
 RUN \
   npm install -g bitcore
+
 
 COPY . /src
 
