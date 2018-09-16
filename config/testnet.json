@@ -19,7 +19,12 @@
         "rpcuser": "mybtc",
         "rpcpassword": "zV2UkHymzQwRGBkpXP2CFRGZLvp9",
         "zmqpubrawtx": "tcp://127.0.0.1:30611"
-      }]
+      }],
+      "insight-api": {
+        "routePrefix": "api",
+        "cwdRequirePath": "node_modules/insight-api",
+        "disableRateLimiter": true
+      }
     }
   }
 }
